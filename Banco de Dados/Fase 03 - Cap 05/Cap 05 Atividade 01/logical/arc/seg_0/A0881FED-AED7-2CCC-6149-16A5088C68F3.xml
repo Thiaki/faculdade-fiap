@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="A0881FED-AED7-2CCC-6149-16A5088C68F3" name="Arc_1">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:27:54 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<entity>3CD90942-644A-8D65-7D23-5AC514A93099</entity>
+<relations>
+<relationID>5BDA7966-59E0-B115-A5E9-15CC496D527B</relationID>
+<relationID>F5353BDE-51CD-105C-9752-B7FB6B0BA3B3</relationID>
+</relations>
+</Arc>

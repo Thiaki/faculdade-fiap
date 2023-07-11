@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+}
+body{
+    background-color:blanchedalmond;
+}
+img{
+    filter: drop-shadow(10px 18px 5px #000);
+    width: 20%;
+    border-radius: 10%;
+}
+ol li{
+    color: red;
+}
+.roman{
+    list-style: upper-roman;
+}
+.alpha{
+    list-style: lower-alpha;
+}
+ul li{
+    font-style: italic;
+    color:blueviolet;
+}
+.circle{
+    list-style:circle;
+}
+.square{
+    list-style:square;
+}
+*\.marcador-imagem{
+    list-style: url(../images/imagem_vinho.jpeg);
+}
+dl{
+    text-align: center;
+}
+dt{
+    font-size: 20px;
+    font-weight: 600;
+    color:darkslategrey;
+    padding-top: 0.5rem;
+}
+dd{
+    font-size: 16px;
+    color:dodgerblue;
+}
+.overline{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.underline{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.line-through{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

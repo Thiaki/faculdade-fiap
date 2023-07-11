@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fiap | Aula 05 - CSS Pseudo-Classes</title>
+</head>
+<body>
+    <!--HOVER-->
+    <div>
+        <div id="hover" href="google.com">Hover</div>
+    </div>
+
+
+    <!--NTH-CHILD - APLICA FORMATAÇÃO DEPENDENDO DA POSIÇÃO DO ELEMENTO:
+    EVEN: ÍMPARES ; ODD: PARES ; COLOCAR ENTRE OS PARÊNTESES O NÚMERO DO ELEMENTO EXATO-->
+    <div>
+        <div class="nth-child">1</div>
+        <div class="nth-child">2</div>
+        <div class="nth-child">3</div>
+        <div class="nth-child">4</div>
+    </div>
+
+
+    <!--FIRST-CHILD E LAST-CHILD - APLICA FORMATAÇÃO NO PRIMEIRO OU ÚLTIMO ELEMENTO COM A CLASSE-->
+    <div>
+        <div class="first-last">First</div>
+        <div class="first-last">Div</div>
+        <div class="first-last">Div</div>
+        <div class="first-last">Last</div>
+    </div>
+
+
+    <!--IS - APLICA FORMATAÇÃO NO ELEMENTO QUE ESTA DENTRO DO OUTRO-->
+    <div>
+        <div class="is-where"><b>Tag B</b></div>
+        <div class="is-where"><a>Tag A</a></div>
+        <div class="is-where"><i>Tag I</i></div>
+        <div class="is-where"><p>Tag P</p></div>
+    </div>
+
+    <table>
+        <capition>Título</capition>
+        <tr>
+            <td>
+                oi
+            </td>
+            <td>
+                oi
+            </td>
+            <td>
+                oi
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

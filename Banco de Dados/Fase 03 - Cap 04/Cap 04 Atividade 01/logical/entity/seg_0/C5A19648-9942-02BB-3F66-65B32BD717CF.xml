@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5A19648-9942-02BB-3F66-65B32BD717CF" name="T_CORRIDA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:49:30 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_corrida" id="7C591469-E41A-3D62-A27B-23E53516669D">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:50:07 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distacia_corrida" id="8B4E9B6D-8F95-5F10-55A3-9AAF0179F226">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:50:15 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_motorista" id="166D4574-00F3-D816-010F-15B41E141EB7">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:52:31 UTC</createdTime>
+<generatorID>9F7492FF-A73D-61B4-345D-71682D4E3A40</generatorID>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>A91A16AF-C8ED-8A6A-AEC6-19E5972779F6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB967A29-A2DC-C382-042E-4120C8F2ACA0" name="T_CORRIDA PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:50:14 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C591469-E41A-3D62-A27B-23E53516669D</attributeRef>
+<attributeRef>166D4574-00F3-D816-010F-15B41E141EB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

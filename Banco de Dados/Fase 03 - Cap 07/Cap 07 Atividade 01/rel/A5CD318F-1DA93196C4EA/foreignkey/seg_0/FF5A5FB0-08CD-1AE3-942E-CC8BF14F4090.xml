@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF5A5FB0-08CD-1AE3-942E-CC8BF14F4090" containerWithKeyObject="8122861B-2F06-6DC0-8B15-14F08A5CDBF1" localFKIndex="683F1103-AD43-4C89-4E51-65301B28088F" name="T_MEDICO_T_FUNCIONARIOv1_FK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>8ACDE41D-CD76-8D18-DA01-A982EBCD740C</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<referredTableLongName>T_FUNCIONARIOv1</referredTableLongName>
+<arc>5B8DDC99-BCBB-FF59-932B-6E62E7A4B75E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E29EF03C-A2B2-9FB8-7D4F-273C0D4E68D7</referredTableID>
+<keyObject>E473F721-387A-1AC6-61FA-D188098446DE</keyObject>
+<referredKeyID>E473F721-387A-1AC6-61FA-D188098446DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_func</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

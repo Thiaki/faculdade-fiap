@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EFB57AA-7706-D5E3-F644-FA622C6C26CA" name="T_TELEFONE">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:22:24 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="8CFABE1D-8BD5-AFE1-7A4C-53F6770FA0D1">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 23:59:46 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="41AE8FB1-1795-F4C3-86B8-0F85D922B3BE">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:22:37 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_telefone" id="B842F32A-E25C-25A3-8671-84E342FBF1A5">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:22:48 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3B59730-B9F3-FA30-827E-182C684BBF5D" name="T_TELEFONE PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:22:36 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CFABE1D-8BD5-AFE1-7A4C-53F6770FA0D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

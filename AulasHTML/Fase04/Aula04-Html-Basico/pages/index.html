@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>FIAP | Aula HTML 04 - Html Básico</title>
+</head>
+<body>
+    <img src="../images/imagem_azul.jpeg" alt="Imagem da cor azul" title="Azul">
+    <img src="../images/imagem_preto.jpeg" alt="Imagem da cor preta" title="Preto">
+    <img src="../images/imagem_vinho.jpeg" alt="Imagem da cor vinho" title="Vinho">
+
+    <dl>
+        <dt>
+            Estilo nas imagens
+        </dt>
+        <dd>
+            <br>
+            filter: blur(50%);<br><br>
+            filter: brightness(50%);<br><br>
+            filter: opacity(50%);<br><br>
+            filter: saturate(50%);<br><br>
+            filter: contrast(50%);<br><br>
+            filter: grayscale();<br><br>
+            filter: drop-shadow(10px 18px 5px #000);<br><br>
+            <!--
+                Primero valor define o eixo X, se for negativo o sombreado fica a esquerda
+                Segundo valor define o eixo Y, se for negativo o sombreado fica em cima
+                Terceiro valor define o desfoque do sombreado
+                Quarto valor define a cor do sombreado
+            -->
+        </dd>
+    </dl>
+
+    <!--Lista ordenada (com um número de marcação)-->
+    <ol>
+        <li class="roman">HTML - Linguagem de Marcação</li>
+        <li class="roman">CSS - Linguagem de Formatação</li>
+        <li class="marcador-imagem">JavaScript - Linguagem de Programação</li>
+        <li class="alpha">BootStrap - Framework Front-End</li>
+        <li class="alpha">React - Framework JavaScript</li>
+    </ol>
+    <ul>
+        <li class="circle">HTML - Linguagem de Marcação</li>
+        <li class="circle">CSS - Linguagem de Formatação</li>
+        <li class="marcador-imagem">JavaScript - Linguagem de Programação</li>
+        <li class="square">BootStrap - Framework Front-End</li>
+        <li class="square">React - Framework JavaScript</li>
+    </ul>
+
+
+    <!--Cria uma palavra e a definição dela, deixando com o espaçamento de hierarquia-->
+    <dl>            
+        <dt>DOM</dt>
+        <dd>Document Object Model</dd>
+        <dt>API</dt>
+        <dd>Application Programming Interface</dd>
+        <dt>JSON</dt>
+        <dd>JavaScript Object Notation</dd>
+        <dt>SASS</dt>
+        <dd>Syntactically Awesome Style Sheets</dd>
+    </dl>
+
+    <p class="overline">overline captilize</p>
+    <p class="underline">underline uppercase</p>
+    <p class="line-through">line-through lowercase</p>
+</body>
+</html>

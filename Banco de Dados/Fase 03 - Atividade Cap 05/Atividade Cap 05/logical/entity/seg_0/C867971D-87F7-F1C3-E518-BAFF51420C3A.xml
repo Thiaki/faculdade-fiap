@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C867971D-87F7-F1C3-E518-BAFF51420C3A" name="T_CONTATO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:41 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="40EDD967-B00A-BE9D-9551-2CD9800B8B2B">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:48 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="414518FF-CBFE-A5BD-BAE4-AC222CB24C9E">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:56 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome_contato" id="782FF030-2918-4E5F-644B-A157466183E8">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:21:08 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apelido_contato" id="69ACEBBB-0604-45C2-00A7-36758F4F740E">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:21:01 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56F90693-B237-500B-60CE-79B3CB2D710F" name="T_CONTATO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:54 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40EDD967-B00A-BE9D-9551-2CD9800B8B2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

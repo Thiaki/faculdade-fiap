@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="000FCD25-66E0-FF95-7310-91FA9F3BE5FD" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0285574C-FFDB-A5C4-0CA0-7B782FF4CC90" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="343283A4-248D-5014-FCB6-C7265A9B8836" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7CC6E305-5C04-2C16-746C-2FC83C226EE7" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="89056EBF-F957-C425-5697-E95301E5CEB8" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="957F2F06-44CC-7546-A925-E402E1CB1991" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="992624FD-CB00-4EDF-6011-550FF89BF0E4" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A2D54C9E-C0C5-3E8D-B77E-34CED7021BFA" name="T_SIP-FUNCIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6E3B0C01-5390-8D01-2BDE-CCCF0AA1BFF3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C358721D-05F0-F39A-E539-070E78EC4A2D" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C5A19648-9942-02BB-3F66-65B32BD717CF" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D012B177-EBE7-47B0-9795-63AAD22CF879" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="68F75339-7B79-4DA8-6131-2F70BF4EF670" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="697979D0-450E-1AE6-D0BB-AE9AA7563701" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="91664422-369A-0974-C3E9-4D010D8F9E6D" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9F7492FF-A73D-61B4-345D-71682D4E3A40" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DB068E2E-FB1D-0570-E41F-14644328C384" name="" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

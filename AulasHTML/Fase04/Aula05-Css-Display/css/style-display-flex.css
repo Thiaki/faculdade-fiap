@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+    margin: 0;
+    padding: 0;}
+div{
+    border: 3px solid #fff;
+    width: 50%;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 10px;}
+div div{
+    background-color: darkgrey;
+    width: 20%;
+    padding: 0;
+    height: 50px;
+    text-align: center;}
+
+
+.display-flex{
+    display: flex;
+}
+
+.flex-direction{
+    /*Row - Deixa os elementos em linha*/
+    /*Column - Deixa os elementos em coluna*/
+    /*Reverse - Inverte os elementos*/
+    flex-direction: column-reverse;
+}
+
+.flex-wrap{
+    /*Wrap - Deixa os elementos quebrando a linha se não couberem*/
+    /*Reverse - Inverte os elementos*/
+    flex-wrap: wrap;
+}
+
+.justify-content{
+    /*ALINHAMENTO HORIZONTAL*/
+    /*Flex-end - Alinha os elementos no final do container*/
+    /*Center - Alinha os elementos no centro do container*/
+    /*Space-between - Deixa os elementos com um espaçamento igual entre eles, alinhando nas extremidades*/
+    /*Scape-around - Alinha os elementos pelo centro, deixando os espaços centrais maiores*/
+    justify-content: space-around;
+}
+
+.align-items{
+    /*ALINHAMENTO VERTICAL*/
+    /*Flex-end - Alinha os elementos no final do container*/
+    /*Center - Alinha os elementos no centro do container*/
+    /*Stretch - Deixa os elementos até o final do elemento pai, para funcionar, o elemento não deve ter o estilo height*/
+    align-items: center;
+}
+
+.gap{
+    /*Define o espaçamento entre os elementos de dentro do flex*/
+    gap: 20px 30px;
+}
+
+
+
+/*flex-grow é usado para definir as partes de um container, o valor identifica quanto do container o elemento vai ocupar, o width não pode ser definido para funcionar*/
+
+/*flex-basic serve basicamente para a mesma coisa que o flex-grow, mas com as unidades de medida e pode ser juntada com o grow*/
+.flex-grow-basic-um{
+    flex-basis: 200px;
+}
+.flex-grow-basic-dois{
+    flex-grow: 2;
+}
+.flex-grow-basic-tres{
+    flex-grow: 3;
+}
+.flex-grow-basic-quatro{
+    flex-grow: 4;
+}
+
+
+/* Relative - Define um novo posicionamento para o elemento se baseando de onde ele já estava, é controlado por top, right, left e bottom */
+/* Absolute - Deixa o elemento em uma posição nova relação ao body, é controlado por top, right, left e bottom  */
+/* Fixed - Deixa um elemento fixo na tela, independente de onde da barra de rolagem. Normalmente utilizado em menu */
+/* z-index - Deixa o elemento acima da outra, deixando a hieranquia dos elementos com o estilo position */
+
+.position-um{
+    background-color: darkslategray;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.position-dois{
+    background-color:darkcyan;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: -20px;
+    z-index: 1;
+}
+.position-tres{
+    background-color:dimgray;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: -40px;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;} 
+body{
+    margin: 0 10px;}
+
+.container-grid{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 1rem auto;
+    display: grid;
+}
+
+.grid-filho{
+    border: 1px solid black;;
+}
+
+.ex-01{
+    /* fr significa uma fração do container total */
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+}
+
+.ex-02{
+    /* repete 2 colunas com 2 frações, e na última, o minimo dela é de 100px e o máximo de 1fr */
+    grid-template-columns: repeat(2, 2fr) 3fr minmax(100px, 1fr);
+}
+
+.ex-03{
+    /* auto-fit é usado para quando não sabemos quantas colunas o grid vai ter, e precisa utilizar o minmax() */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.ex-04{
+    grid-template-rows: repeat(2, 50px) repeat(2, 25px);
+}
+
+/*----------------------------------*/
+
+.container-alinhamento{
+    /*gap é responsável por dar um espaçamento entre as colunas e/ou linhas*/
+    display: grid;
+    padding: 2rem;
+    gap: 20px;
+    justify-content: center;
+}
+.alinhamento-filho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+.ex-05{
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+/*----------------------------------*/
+
+.ex-06{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10vh 20vh 10vh;
+    gap: 5px
+}
+
+.ex-06-01{
+    background-color: darkcyan;
+    /*grid-colum-start e end são responsáveis por mostrar o começo e o final da coluna onde o bloco vai ficar.*/
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+
+.ex-06-02{
+    background-color: darkslategray;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.ex-06-03{
+    background-color: cyan;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ex-06-04{
+    background-color: cadetblue;
+    width: 100%;
+    /*Pode ser representado po grid-colum: {start}/{end}*/
+    grid-column: 1/3;
+}
+
+/*----------------- GRID AREA -----------------*/
+
+.ex-07{
+    gap: 1rem;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+                        "header header"
+                        "main aside"
+                        "footer footer";
+}
+
+.ex-07-01{
+    grid-area: header;
+}
+.ex-07-02{
+    grid-area: main;
+}
+.ex-07-03{
+    grid-area: aside;
+}
+.ex-07-04{
+    grid-area: footer;
+}

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="5B8DDC99-BCBB-FF59-932B-6E62E7A4B75E" name="Arc_1">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>E29EF03C-A2B2-9FB8-7D4F-273C0D4E68D7</table>
+<fkeys>
+<fkeyID>EA16F9BC-7CDB-F5B9-860D-9F7D8907CA64</fkeyID>
+<fkeyID>FF5A5FB0-08CD-1AE3-942E-CC8BF14F4090</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-blue: rgb(42, 67, 99);
+    --color-white: #f9f9f9;
+    --color-blue-text: rgb(42, 67, 99, .9);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* ATIVIDADE 01
+*::selection{
+    background-color:darkred;
+}
+
+#image{
+    background-image: url(../image/imagem_azul.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+#left{
+    width: 50%;
+    margin: 5%;
+}
+
+p{
+    margin: 15% auto;
+}
+.btn{
+    color:aliceblue;
+    background-color: #363636;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: #363636;
+}
+*/
+
+
+/* ATIVIDADE 02
+table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: var(--color-white);
+    color: var(--color-blue-text);
+}
+
+caption{
+    color: var(--color-blue);
+    font-size: 25px;
+}
+thead{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-weight: 200;
+}
+thead th{
+    padding: 5px;
+    min-width: 100px;
+}
+tbody tr{
+    border-bottom: 2px solid #ccc;
+}
+tbody td{
+    padding: 5px;
+}
+tfoot td{
+    padding-top: 5px;
+    border-top: 10px solid var(--color-blue);
+}
+*/
+
+
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-um{
+    background-color: darkslategray;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.position-dois{
+    background-color:darkcyan;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 110px;
+    z-index: 1;
+}
+
+.position-tres{
+    background-color:dimgray;
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 210px;
+}

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EF9F0A9-73D1-AB42-804E-1A9623478286" name="T_PESSOA_JURIDICA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:24:16 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="4FF91542-A955-3932-38A9-A482FF9401B3">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:26:29 UTC</createdTime>
+<generatorID>F5353BDE-51CD-105C-9752-B7FB6B0BA3B3</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>7D532895-7FAF-3482-0AE9-3BA94DB6C5E2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="370CBC26-0919-A13D-F490-255A252391E0">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:24:25 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ramo_atividade" id="3AA437E3-EA9A-6B9A-F193-2D282358A8C3">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:24:33 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89B875EB-2C01-233D-1AAE-FDF666F35B6D" name="T_PESSOA_JURIDICA PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:26:37 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FF91542-A955-3932-38A9-A482FF9401B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

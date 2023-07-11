@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17BC2213-7BCC-F143-21BE-39C258260538" name="T_MEDICO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:41:16 UTC</createdTime>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="A5CD318F-8572-71E6-EDD4-1DA93196C4EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_crm" id="AAF94474-2154-A3D7-D3C8-FCDAAD65BE97">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:41:24 UTC</createdTime>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="A5CD318F-8572-71E6-EDD4-1DA93196C4EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_func" id="ED06B59A-5447-EA05-AD23-84080E24C3DA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:42:43 UTC</createdTime>
+<generatorID>8ACDE41D-CD76-8D18-DA01-A982EBCD740C</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="A5CD318F-8572-71E6-EDD4-1DA93196C4EA" value="true"/>
+</engineerTo>
+<referedAttribute>C212A75A-C5B6-CFCE-0459-B73CA66BAE96</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D27A2188-5C63-0213-E464-7B107666249B" name="T_MEDICO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:42:43 UTC</createdTime>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="A5CD318F-8572-71E6-EDD4-1DA93196C4EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED06B59A-5447-EA05-AD23-84080E24C3DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

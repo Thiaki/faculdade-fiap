@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="BC9833CB-07EC-3BCF-EF60-41D9D5DCC1C0">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:03 UTC</createdTime>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="A5CD318F-8572-71E6-EDD4-1DA93196C4EA" value="true"/>
+</engineerTo>
+<sourcePk>AB1A0834-BABC-D212-2A66-160EE9B417B4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB9BAF8D-BCCA-5C34-7A95-80685F152B82</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C0C7F71-57B2-3132-90B0-31F4943A5460</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

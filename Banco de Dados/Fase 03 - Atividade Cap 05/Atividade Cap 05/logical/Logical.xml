@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="66D1273E-7D0B-AE64-EA03-CCBF4F81C62A" mainViewID="0CD8885E-BE6D-73CE-6C19-836253F805F7">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-18 22:32:06 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

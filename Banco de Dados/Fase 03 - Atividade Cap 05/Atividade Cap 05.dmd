@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Atividade Cap 05" id="D5EB7683-D2E3-18B3-04A1-C99208A138D6" version="3.5">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-18 22:32:06 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5EB7683-D2E3-18B3-04A1-C99208A138D6</designId>
+</OSDM_Design>

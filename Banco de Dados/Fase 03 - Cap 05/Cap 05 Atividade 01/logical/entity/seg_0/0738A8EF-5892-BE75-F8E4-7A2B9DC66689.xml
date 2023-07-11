@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0738A8EF-5892-BE75-F8E4-7A2B9DC66689" name="T_ENGENHEIRO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:49:17 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="E28FCA1C-D475-77B0-1D66-9B4B2692E350">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:49:56 UTC</createdTime>
+<generatorID>3F07031A-C877-88A9-06C3-1B3970B17868</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>723175EF-DDEA-74F9-A634-6F2A5B81339E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_crea" id="6BA093B4-6FDD-CE87-AFB3-B1BBBA14E59F">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:49:28 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="488FB773-ED97-A1D2-C81D-917D1A06B98F" name="T_ENGENHEIRO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:50:13 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E28FCA1C-D475-77B0-1D66-9B4B2692E350</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

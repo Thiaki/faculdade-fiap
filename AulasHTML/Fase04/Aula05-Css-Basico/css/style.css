@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 10;
+    font-family: 'Readex Pro', sans-serif;
+}
+/*
+body{
+    background-image: url(../images/imagem_azul.jpeg);
+    background-repeat: no-repeat; #Faz com que a imagem não se repita
+    background-position: center;
+
+    background-repeat: repeat-x; #Repete a imagem no eixo x 
+    background-repeat: repeat-y; #Repete a imagem no eixo y
+
+    background-attachment: scroll; #Serve para deixar a imagem fixa ou seguindo o scroll
+    
+    background-size: cover; #Faz a imagem cobrir a tela toda
+    background-size: contain; #A imagem tenta cobrir o container
+}
+*/
+div{
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+#overflow{
+    overflow: scroll;
+    /*overflow: auto; #Exibe a barra de rolagem para ver todo o conteúdo   */
+    /*overflow: hidden; #Não será possiver ver o conteúdo que passar a div    */
+    /*overflow: scroll; #O conteúdo não fica visivel e aparece uma barra de rolagem automatica    */
+}
+
+#margin{
+    /* Margin define a margem externa da div */
+    margin: 10px;
+    /*margin: 50px; #Com apenas um valor repesenta todas as margens da div  */
+    /*margin: 50px 20px; #Com dois valores, o primeiro representa o top e bottom e o segundo left e right   */
+    /*margin: 50px 20px 10px; #Com três valores. o primeiro representa o top, segundo o left e right e o terceiro o bottom */
+    /*margin: 50px 20px 30px 10px; #Com quatro valores, o primeiro representa o top, segundo o right, terceiro bottom e quarto o left (SENTIDO HORÁRIO)*/
+}
+
+#padding{
+    /* Padding define a margem interna da div */
+    box-sizing: border-box; /* QUANDO TRABALHAR COM PADDING COLOCAR ESSE ESTILO POIS O PADDING AUMENTA O TAMANHO DA DIV, E COM ELE NÃO AUMENTARÁ */
+    /*padding: 10px; #Funciona da mesma forma que o margin, com os 4 valores */
+}
+
+#border{
+    border: 10px inset blueviolet; 
+    /*
+    Estilos:
+        solid - borda normal
+        double - borda dupla
+        dotted - borda pontilhada
+        dashed - borda riscada
+        groove - deixa as bordas da esquerda e superior com cor diferente da direita e inferior
+        ridge - mesma coisa que a groove mas com as bordas ao contrário
+        inset - bordas superior e esquerda destacadas
+        outset - mesma coisa que a inset mas com as bordas ao contrário
+    */
+}
+#box-shadow{
+    /*box-shadow: 0px 0px 10px 5px #363636; #Primeiro valor é o deslocamento horizontal, o segundo o deslocamento vertical, o terceiro o desfoque, e o quarto a expansão da sombra */  
+    /*box-shadow: inset 0px 0px 50px 10px #363636; #Com o inset faz uma sombra interna mas com as mesmas propriedades */
+}
+
+#background-attachment{
+    /* Serve para deixar a imagem fixa ou seguindo o scroll */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+
+/*
+O EM PEGA O TAMANHO DO PAI E MULTIPLICA PELO VALOR DO EM, EXEMPLO O EM-REM ESTÁ COMO 10 PX E O P QUE É FILHO DELE ESTÁ COMO 2 EM, FAZENDO COM QUE O FONT-SIZE TENHA 20 PX
+
+O REM PEGA O TAMANHO DO :ROOT, OU SEJA, A TAG HTML INTEIRA, FAZENDO COM QUE SE O :ROOT TIVER COM 10PX, OS ELEMENTOS MARCADOS COM 2REM, POR EXEMPLO, FIQUEM COM 20 PX
+*/
+#em-rem{
+    margin: 2% auto;
+    text-align: center;
+    font-size: 10px;
+    height: auto;
+}
+#em-rem p{
+    font-size: 2em;
+}

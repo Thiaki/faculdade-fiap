@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C358721D-05F0-F39A-E539-070E78EC4A2D" name="T_PEDIDO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:28:15 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_pedido" id="616BA660-5610-749C-B965-0A2ADBADCBD5">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:29:17 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produtos_pedido" id="A25D2D4C-E15B-BED0-0FD2-CE5BC7959CB8">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:29:27 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="C96DA430-D5FE-00E3-09C8-52BB165B9080">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:30:01 UTC</createdTime>
+<generatorID>91664422-369A-0974-C3E9-4D010D8F9E6D</generatorID>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>05F770A2-0B24-7378-C164-E5C001EE4D69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2047F9B-08F0-77AB-5B24-86D7D4AF0380" name="T_PEDIDO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 01:29:24 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>616BA660-5610-749C-B965-0A2ADBADCBD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

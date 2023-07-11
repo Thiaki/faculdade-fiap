@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prescrever" directorySegmentName="seg_0" id="5BAB6364-B224-4087-9913-8BDD66DE2F05">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:37:05 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<sourcePk>2D3CDEB6-8C0F-F0DD-B097-73928E494CEA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7A6D9F8-E898-3957-DFFA-384DB8C0E793</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>65E0F18F-22B9-0FE4-ABCA-AD082FB5FB63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

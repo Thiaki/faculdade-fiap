@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943E382B-1393-7562-A98F-BEEBACCBE31D" name="T_DEPARTAMENTO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>EB9BAF8D-BCCA-5C34-7A95-80685F152B82</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="E640EB04-84DA-4E64-BDEF-E82975D11227">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>62088951-F459-3840-A1D1-BDAF3E88D724</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dept" id="48D8E37A-5D54-D476-CD0E-3CB3CFA7BEB9">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>AD525D72-7BCC-77B4-233B-CE9B3618EFA3</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="706E0013-85D7-45E5-60E1-2ABC54C6BB59" name="T_DEPARTAMENTO_PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>AB1A0834-BABC-D212-2A66-160EE9B417B4</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E640EB04-84DA-4E64-BDEF-E82975D11227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

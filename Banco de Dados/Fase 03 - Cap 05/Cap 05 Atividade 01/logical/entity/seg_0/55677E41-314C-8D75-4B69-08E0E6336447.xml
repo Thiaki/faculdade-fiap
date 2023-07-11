@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55677E41-314C-8D75-4B69-08E0E6336447" name="T_SECRETARIA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:48:28 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="D7F546D1-B404-72AB-DDDB-3AE8935BB0F6">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:51:27 UTC</createdTime>
+<generatorID>09BD29BF-9F30-2F52-0DB3-CB309E7A53F2</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>723175EF-DDEA-74F9-A634-6F2A5B81339E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_idioma" id="9C184706-FF42-997D-8104-C05EB986F75B">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:48:36 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86E04100-96AC-DED7-B659-C173BE610B5A" name="T_SECRETARIA PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:51:33 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7F546D1-B404-72AB-DDDB-3AE8935BB0F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

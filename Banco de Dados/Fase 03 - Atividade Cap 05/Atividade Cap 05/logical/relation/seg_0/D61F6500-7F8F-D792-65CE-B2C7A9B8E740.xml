@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="D61F6500-7F8F-D792-65CE-B2C7A9B8E740">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:23:54 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<sourcePk>56F90693-B237-500B-60CE-79B3CB2D710F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C867971D-87F7-F1C3-E518-BAFF51420C3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5EFB57AA-7706-D5E3-F644-FA622C6C26CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

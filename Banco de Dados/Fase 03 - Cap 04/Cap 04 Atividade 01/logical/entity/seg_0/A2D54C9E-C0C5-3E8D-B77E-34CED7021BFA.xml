@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2D54C9E-C0C5-3E8D-B77E-34CED7021BFA" name="T_SIP-FUNCIONARIO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:09:04 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula1" id="4D23E66F-E7A5-C7F4-2E61-2AC8703AF805">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:10:17 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="CAEFD543-C79C-55F8-DB7D-BF8ED1427A17">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:09:40 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario_funcionario" id="17DC40DC-65AA-B744-1ED9-14813D3BB00B">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:10:03 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="0F7D5FB1-F787-CBFB-83D4-C109E6C4B9CB">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:10:29 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4288BC45-5849-EDB2-1FF3-AE9AF5C2FC2E" name="T_SIP-FUNCIONARIO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-06 03:09:48 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D23E66F-E7A5-C7F4-2E61-2AC8703AF805</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 30px 10px;
+    font-family: 'Readex Pro', sans-serif;}
+body{
+    background-color: darkgray;}
+div{
+    display: flex;}
+div div{
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 8px;}
+
+
+#hover:hover{
+    background-color: cadetblue;
+    color:antiquewhite;
+    border-color: antiquewhite;
+}
+
+
+
+.nth-child:nth-child(even){
+    background-color:darkgreen;
+    color: aliceblue;
+}
+.nth-child:nth-child(odd){
+    background-color:cornflowerblue;
+}
+.nth-child:nth-child(1){
+    background-color:azure;
+}
+
+
+
+div .first-last:first-child{
+    background-color: cornflowerblue;
+}
+div .first-last:last-child{
+    background-color:crimson;
+    color: aliceblue;
+}
+
+
+:is(div) a{
+    color: blue;
+}
+
+
+.is-where:has(b){
+    color: aqua;
+}

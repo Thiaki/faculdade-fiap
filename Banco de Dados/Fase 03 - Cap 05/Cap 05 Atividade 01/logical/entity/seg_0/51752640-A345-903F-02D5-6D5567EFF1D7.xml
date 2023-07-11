@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51752640-A345-903F-02D5-6D5567EFF1D7" name="T_PESSOA_FISICA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:25:01 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="2289BE7E-A2FF-5107-78CC-49D22B46258F">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:25:42 UTC</createdTime>
+<generatorID>5BDA7966-59E0-B115-A5E9-15CC496D527B</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>7D532895-7FAF-3482-0AE9-3BA94DB6C5E2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="BB4514EC-9E61-B0D0-6CDC-FD9318B0719C">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:25:09 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="44034230-13AF-EB39-8A4A-80242A87CFCB">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:25:22 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sexo" id="D65BCC67-CD3D-D979-ED99-3834B7CC7CBC">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:25:27 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DBB0B97-C786-7DEC-1D3E-9D4F530EF7A8" name="T_PESSOA_FISICA PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-14 23:26:25 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2289BE7E-A2FF-5107-78CC-49D22B46258F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

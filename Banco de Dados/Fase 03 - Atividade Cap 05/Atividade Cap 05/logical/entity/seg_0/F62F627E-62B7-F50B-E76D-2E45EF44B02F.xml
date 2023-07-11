@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F62F627E-62B7-F50B-E76D-2E45EF44B02F" name="T_LOGRADOURO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-18 22:32:26 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_logradouro" id="9C98EF86-7802-F737-9FFA-FD707DF2D3A0">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:19:59 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_logradouro" id="9136500F-7650-8B0E-F4F9-73A7FC1F4A8C">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:12 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="A0378594-F63E-9F07-28C0-A3161A6EB685">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:32 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rua" id="E99AD824-A9A1-D056-D7BC-C6986D9B2CEF">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:06 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_logradouro" id="4EEE3545-52CF-60E0-B92A-81F0A5644863">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:23 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF8953B9-D2AA-78C2-0D31-F17280798893" name="T_LOGRADOURO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-19 02:20:05 UTC</createdTime>
+<ownerDesignName>Atividade Cap 05</ownerDesignName>
+<engineerTo>
+<item key="CDF09A46-D52D-FC32-7944-56025588428A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C98EF86-7802-F737-9FFA-FD707DF2D3A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

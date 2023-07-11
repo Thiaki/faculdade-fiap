@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65E0F18F-22B9-0FE4-ABCA-AD082FB5FB63" name="T_PRESCRiCAO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:32:17 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_psicologia" id="0B85200B-B417-9BF3-EAAA-77D498E182BD">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:33:07 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_consulta" id="15C86558-11A3-566B-70A1-5484729BC49E">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:37:05 UTC</createdTime>
+<generatorID>5BAB6364-B224-4087-9913-8BDD66DE2F05</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>FDFAEA50-54BA-00AE-032A-C2281276254A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medicamento" id="EEDF799E-6484-6220-9988-36F1323DA2FC">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:37:28 UTC</createdTime>
+<generatorID>4507C5BC-4761-3D88-7CF5-5838E6B910AE</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>BF567728-B4BB-84E5-9131-BD14C2206333</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_via" id="B203BAD0-7D84-8629-DC03-3FB7ECC7C61A">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:33:28 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5993323E-8436-BE53-CC41-4B4E0E6A6E0A" name="T_PRESCRiCAO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:33:11 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15C86558-11A3-566B-70A1-5484729BC49E</attributeRef>
+<attributeRef>EEDF799E-6484-6220-9988-36F1323DA2FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realizav2" directorySegmentName="seg_0" id="2A58CEC7-DF0D-93DE-6C0E-D9C14A014AB8">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-12 00:29:06 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<sourcePk>E485E965-C411-C97F-4A7C-2ED0F12D3249</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1EF2C31-3F55-DCFB-2021-799C53FF3DA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7A6D9F8-E898-3957-DFFA-384DB8C0E793</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

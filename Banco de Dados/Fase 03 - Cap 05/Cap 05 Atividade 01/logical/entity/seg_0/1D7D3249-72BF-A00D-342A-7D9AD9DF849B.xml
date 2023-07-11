@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D7D3249-72BF-A00D-342A-7D9AD9DF849B" name="T_FUNCIONARIOv2">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:40:35 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="7C5573B8-8CD0-69D6-34D8-B2529E5212C0">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:40:55 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula1" id="D860AB5C-D868-70F2-85A9-50D34B00A5F9">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:41:33 UTC</createdTime>
+<generatorID>134251DE-B50B-4643-C2E7-186944C1C646</generatorID>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7C5573B8-8CD0-69D6-34D8-B2529E5212C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="11DED2C9-E8FB-0721-2FF2-5C1228D47E8F">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:41:05 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="4568C888-D1A1-17FA-157C-8E7EC15913AE">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:41:12 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D8D19AA-A110-4E3D-E4A3-C3A8FFC8BA6A" name="T_FUNCIONARIOv2 PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-16 01:41:04 UTC</createdTime>
+<ownerDesignName>Cap 05 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C5573B8-8CD0-69D6-34D8-B2529E5212C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

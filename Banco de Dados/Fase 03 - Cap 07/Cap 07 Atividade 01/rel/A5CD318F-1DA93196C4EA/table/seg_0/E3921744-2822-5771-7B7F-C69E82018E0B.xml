@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3921744-2822-5771-7B7F-C69E82018E0B" name="T_FUNCIONARIO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>0C0C7F71-57B2-3132-90B0-31F4943A5460</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="42E4A55A-785A-BA69-6893-72503FCBA65B">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>B3D8E31C-768D-6BF6-9A53-F9114614AB72</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="96770717-F442-03E3-2D63-0CF45CBAB99C">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>B17B1728-0806-7339-10E8-580A5A6AD63B</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="72E2C417-7C79-80D7-75CA-2AA92428DF9B">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>707E4BDE-C259-7310-347F-EE90D6C90BDA</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DEPARTAMENTO_cd_depto" id="8899940D-BA1A-B012-84EC-438DF06E25E8">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>3EBE22C0-CACA-55A3-528C-DAC7D14A9B4E</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C8C4BA-0B2C-B779-28E2-B23699B38592" referredColumn="E640EB04-84DA-4E64-BDEF-E82975D11227"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB1EB74D-AB8E-3F95-2363-186D076DC33C" name="T_FUNCIONARIO_PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>515626CB-166C-6B9D-1F77-B33E9D94574F</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42E4A55A-785A-BA69-6893-72503FCBA65B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB233BE-5878-2BE4-7161-4ACA2EE36ED5" name="T_FUNCIONARIO_T_DEPARTAMENTO_FK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-26 01:40:48 UTC</createdTime>
+<generatorID>BC9833CB-07EC-3BCF-EF60-41D9D5DCC1C0</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8899940D-BA1A-B012-84EC-438DF06E25E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

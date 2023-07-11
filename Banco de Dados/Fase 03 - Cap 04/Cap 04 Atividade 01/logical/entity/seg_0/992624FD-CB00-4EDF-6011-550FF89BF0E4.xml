@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="992624FD-CB00-4EDF-6011-550FF89BF0E4" name="T_MULHER">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 22:16:15 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_mulher" id="073B8CA0-EBA9-A172-711E-87E953F1FBFB">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 22:16:23 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_mulher" id="545A445F-1B41-F4EE-F37C-B463896F22FB">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 22:16:29 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_homem" id="7DA798DB-CA21-07BB-0440-6CA5DA2EA00F">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 22:24:54 UTC</createdTime>
+<generatorID>DB068E2E-FB1D-0570-E41F-14644328C384</generatorID>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5F97A86F-EA16-430E-AE93-0FA7726A5127</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF7991E0-D1F0-9E5C-9465-ED3471D3FD07" name="T_MULHER PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 22:16:27 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>073B8CA0-EBA9-A172-711E-87E953F1FBFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

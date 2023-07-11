@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="957F2F06-44CC-7546-A925-E402E1CB1991" name="T_DEPENDENTE">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 23:56:06 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="1D932568-4E5E-D732-3EA7-7CD681ED7058">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 23:57:04 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="99089412-AECF-DCF1-BD92-D46CF637EFEC">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 23:57:24 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_funcionario" id="97F366F5-F6FA-DD36-07A3-D49FF362D290">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-08 00:44:06 UTC</createdTime>
+<generatorID>68F75339-7B79-4DA8-6131-2F70BF4EF670</generatorID>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<referedAttribute>E39E7069-09A1-B602-A78D-5DC675D5839B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2B5DDE9-CFF9-AC36-0903-9FB34112FA07" name="T_FILHOS_DEPENDENTES PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-07 23:57:13 UTC</createdTime>
+<ownerDesignName>Cap 04 Atividade 01</ownerDesignName>
+<engineerTo>
+<item key="B36C2E6B-B675-6649-2B21-D08ABEBDBDDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D932568-4E5E-D732-3EA7-7CD681ED7058</attributeRef>
+<attributeRef>97F366F5-F6FA-DD36-07A3-D49FF362D290</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

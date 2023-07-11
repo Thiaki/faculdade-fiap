@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+:root{
+    --white: #FFF;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.container h1{
+    font-size: 8vmin;
+}
+
+.image{
+    max-width: 100%;
+}
+
+/* media queries - define onde vai ser o break-point */
+@media(max-width: 1000px){
+    /* Quando a tela for no máximo 1000px, os elementos recebem as tais formatações */
+
+    .container{
+        background-color: darkcyan;
+        color: var(--white)
+    }
+
+    .container h1{
+        font-size: 6vmin;
+    }
+}
+
+@media(max-width: 500px){
+    .container{
+        background-color: darkblue;
+        color: var(--white);
+    }
+
+    .container h1 , a{
+        font-size: 4vmin;
+    }
+}

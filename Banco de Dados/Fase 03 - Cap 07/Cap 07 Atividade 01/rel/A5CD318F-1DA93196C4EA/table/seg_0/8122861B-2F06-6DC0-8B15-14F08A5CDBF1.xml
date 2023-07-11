@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8122861B-2F06-6DC0-8B15-14F08A5CDBF1" name="T_MEDICO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>17BC2213-7BCC-F143-21BE-39C258260538</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_crm" id="B3F4D388-FD12-01E2-145F-19E638A5AA02">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>AAF94474-2154-A3D7-D3C8-FCDAAD65BE97</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FUNCIONARIOv1_cd_func" id="0A09D1B7-AD6A-7596-1BF0-B527DBD0EDE4">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>ED06B59A-5447-EA05-AD23-84080E24C3DA</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5A5FB0-08CD-1AE3-942E-CC8BF14F4090" referredColumn="0C374A15-7375-8944-6C3C-6029789A8C8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E062522-0AFD-DD0C-ACD6-FBDF765A218E" name="T_MEDICO_PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>D27A2188-5C63-0213-E464-7B107666249B</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A09D1B7-AD6A-7596-1BF0-B527DBD0EDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="683F1103-AD43-4C89-4E51-65301B28088F" name="T_MEDICO_T_FUNCIONARIOv1_FK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 06:47:40 UTC</createdTime>
+<generatorID>8ACDE41D-CD76-8D18-DA01-A982EBCD740C</generatorID>
+<ownerDesignName>Cap 07 Atividade 01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A09D1B7-AD6A-7596-1BF0-B527DBD0EDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
