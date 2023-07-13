@@ -7,8 +7,51 @@
     <title>Fiap | Aula 07 - Formulários</title>
 </head>
 <body>
-    <form name="nome-formulário" id="identificador" action="">
+    <!--
+        action mostra para onde os dados serão enviados, normalemnte sendo um código javascript
 
+        method:
+            get sendo quando enviamos o formulario, os campos ficam na URL do site.
+            post envias as informações encapsuladas e não mostra as informações
+    -->
+    <form name="nome-formulário" id="identificador" action="endereco-do-script" method="post" autocomplete="off">
+        <fieldset>
+            <p>Fieldset - envolve os campos com uma borda com a função de agrupar</p>
+            <legend>Legend - adiciona uma legenda em cima no campo</legend>
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <label for="exemplo">Label coloca um identificador para o campo do formulário</label>
+            <br>
+            <input type="text" id="exemplo">
+        </fieldset>
     </form>
+
+    <hr>
+
+    <h1>Exemplo prático</h1>
+
+    <form>
+        <fieldset>
+            <legend>Campo de Cadastro</legend>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario">
+            <br> <br>
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf">
+            <br> <br>
+            <label for="dtnasci">Data de Nascimento:</label>
+            <input type="date" id="dtnasci">
+            <br> <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha">
+        </fieldset>
+        <fieldset>
+            <legend>Buscar</legend>
+            <label for="pesquisar">Pesquisar:</label>
+            <input type="search" id="pesquisar">
+        </fieldset>
+    </form>
+
 </body>
 </html>

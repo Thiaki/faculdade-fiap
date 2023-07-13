@@ -6,3 +6,24 @@
     box-sizing: border-box;
     font-family: 'Readex Pro', sans-serif;
 }
+
+form{
+    width: 80%;
+    margin: 0.5rem auto;
+}
+
+fieldset{
+    padding: 0.5rem;
+}
+
+form fieldset label{
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    border-bottom: solid 3px;
+    margin: 0 auto;
+}
+
