@@ -16,14 +16,56 @@
     -->
     <form name="nome-formulário" id="identificador" action="endereco-do-script" method="post" autocomplete="off">
         <fieldset>
+
             <p>Fieldset - envolve os campos com uma borda com a função de agrupar</p>
+
             <legend>Legend - adiciona uma legenda em cima no campo</legend>
+
         </fieldset>
         <br> <br>
         <fieldset>
+
             <label for="exemplo">Label coloca um identificador para o campo do formulário</label>
             <br>
             <input type="text" id="exemplo">
+            <br> <br>
+
+            <label for="">Campo Radio</label>
+            <br>
+            <input type="radio" name="radio" id="radio-01">
+            <label for="radio-01">Opção 01</label>
+            <input type="radio" name="radio" id="radio-02">
+            <label for="radio-02">Opção 02</label>
+            <br> <br>
+
+            <label for="">Campo Checkbox</label>
+            <br>
+            <input type="checkbox" id="checkbox-01">
+            <label for="checkbox-01">Opção 01</label>
+
+            <input type="checkbox" id="checkbox-02">
+            <label for="checkbox-02">Opção 02</label>
+            <br> <br>
+
+            <label for="opcoes">Escolher Opções</label>
+            <select name="opcoes" id="opcoes" required>
+                <option value="0">Selecione sua opção</option>
+                <option value="1">Opção 01</option>
+                <option value="2">Opção 02</option>
+                <option value="3">Opção 03</option>
+            </select>
+            <br> <br>
+
+            <label for="bt-submit">Submit- Busca a informação action do fomrs para enviar o formulário </label><br>
+            <button id="bt-submit" type="submit">Subimit</button>
+            <br><br>
+            <label for="bt-reset">Reset- As informações digitadas são apagadas</label><br>
+            <button id="bt-reset" type="reset">Reset</button>
+            <br><br>
+            <label for="bt-button">Button- Chama uma function JavaScript</label><br>
+            <button id="bt-button" type="button">Button</button>
+            <br><br>    
+
         </fieldset>
     </form>
 
@@ -38,10 +80,35 @@
             <input type="text" id="usuario">
             <br> <br>
             <label for="cpf">CPF:</label>
-            <input type="number" id="cpf">
+            <input type="number" id="cpf" min="10" max="20" step="2">
             <br> <br>
             <label for="dtnasci">Data de Nascimento:</label>
             <input type="date" id="dtnasci">
+            <br> <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone">
+            <br> <br>
+            <label for="tp-telefone">Tipo de Telefone:</label>
+            <br>
+            <input type="radio" name="tp-telefone" id="radio-tel-fixo">
+            <label for="radio-tel-fixo">Telefone Fixo</label>
+            <input type="radio" name="tp-telefone" id="radio-tel-celular">
+            <label for="radio-tel-celular">Celular</label>
+            <br> <br>
+            <label for="tp-telefone">Quais Tipos de Telefone Você Tem?</label>
+            <br>
+            <input type="checkbox" name="tp-telefone" id="checkbox-tel-fixo">
+            <label for="checkbox-tel-fixo">Telefone Fixo</label>
+            <input type="checkbox" name="tp-telefone" id="checkbox-tel-celular">
+            <label for="checkbox-tel-celular">Celular</label>
+            <br> <br>
+            <label for="form-opcoes">* Escolha uma Opção:</label>
+            <select name="form-opcoes" id="form-opcoes" required>
+                <option value="0">Selecione uma Opção</option>
+                <option value="1">Front-End</option>
+                <option value="2">Back-End</option>
+                <option value="3">Full-Stack</option>
+            </select>
             <br> <br>
             <label for="senha">Senha:</label>
             <input type="password" id="senha">
@@ -49,7 +116,8 @@
         <fieldset>
             <legend>Buscar</legend>
             <label for="pesquisar">Pesquisar:</label>
-            <input type="search" id="pesquisar">
+            <input type="search" id="pesquisar" placeholder="Busca">
+            <button class="right" type="button" id="bt-search">Pesquisar</button>
         </fieldset>
     </form>
 
