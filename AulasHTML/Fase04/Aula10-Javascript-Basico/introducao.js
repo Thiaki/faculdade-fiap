@@ -1,16 +1,15 @@
-/*
 // CAIXAS DE DIÁLOGO
 
 alert("Alertando")
 confirm("Confirmar alguma coisa")
 prompt("Caixa de inserção de conteúdo")
-*/
 
 
 
 
 
-/*
+
+
 // RETORNA VERDADEIRO OU FALSO
 
 let num1 = parseFloat(prompt("Digite o primeiro número:"));
@@ -48,13 +47,13 @@ console.log("O", num1, "é igual e do mesmo tipo que", num2,"? R:", result);
 // Valores diferentes e de tipo diferente (string, int, float...)
 result = (num1 !== num2);
 console.log("O", num1, "é diferente e de tipo diferente que", num2,"? R:", result);
-*/
 
 
 
 
 
-/*
+
+
 // FACILITANDO CONTAS
 
 let valor = 100;
@@ -74,25 +73,25 @@ console.log("A multiplicação de 100 e 10 ficou =", valor)
 // Divisão mais simples
 valor /= 10
 console.log("A divisão de 100 e 10 ficou =", valor)
-*/
 
 
 
 
 
-/*
+
+
 //FUNÇÕES MATH
 
-let valor = 10.11
+let vlr = 10.11
 
 // Retorna o próximo número inteiro 
-console.log("Math.ceil", Math.ceil(valor))
+console.log("Math.ceil", Math.ceil(vlr))
 
 // Retorna o anterior número inteiro 
-console.log("Math.floor", Math.floor(valor))
+console.log("Math.floor", Math.floor(vlr))
 
 // Retorna o número aproximado 
-console.log("Math.round", Math.round(valor))
+console.log("Math.round", Math.round(vlr))
 
 // Retorna o maior número 
 console.log("Math.max", Math.max(10, 20, 30, 40, 50))
@@ -107,16 +106,16 @@ console.log("Math.pow", Math.pow(2, 5))
 console.log("Math.random", Math.random())
 
 // Retorna a raiz quadrada 
-console.log("Math.sqrt", Math.sqrt(valor))
+console.log("Math.sqrt", Math.sqrt(vlr))
 
 // Retorna a raiz cúbica 
-console.log("Math.cbrt", Math.cbrt(valor))
-*/
+console.log("Math.cbrt", Math.cbrt(vlr))
 
 
 
 
-/*
+
+
 // MÉTODOS DE STRING
 
 let string = "Eduardo Thiaki"
@@ -170,12 +169,12 @@ console.log(string.startsWith("Edua"))
 
 // Verifica se a string termina com o texto determinado
 console.log(string.endsWith("aki"))
-*/
 
 
 
 
-/*
+
+
 // MÉTODO DE DATAS
 const dataAtual = new Date()
 
@@ -201,7 +200,7 @@ console.log(dataAtual.getMinutes())
 
 // Mostra a Segundos
 console.log(dataAtual.getSeconds())
-*/
+
 
 
 
@@ -216,33 +215,32 @@ console.log(dataAtual.getSeconds())
 // TREINANDO
 
 
-/*
+
 // Contas
-let num1 = parseFloat(prompt("Digite o primeiro número:"));
-let num2 = parseFloat(prompt("Digite o segundo número:"));
-let result = 0;
+let valor1 = parseFloat(prompt("Digite o primeiro número:"));
+let valor2 = parseFloat(prompt("Digite o segundo número:"));
+let resultado = 0;
 
 // Soma
-result = num1 + num2;
-console.log("A soma de ", num1, "+", num2, "=", result);
+resultado = valor1 + valor2;
+console.log("A soma de ", valor1, "+", valor2, "=", resultado);
 
 // Subtração
-result = num1 - num2;
-console.log("A subtração de ", num1, "-", num2, "=", result);
+resultado = valor1 - valor2;
+console.log("A subtração de ", valor1, "-", valor2, "=", resultado);
 
 // Multiplicação
-result = num1 * num2;
-console.log("A multiplicação de ", num1, "*", num2, "=", result);
+resultado = valor1 * valor2;
+console.log("A multiplicação de ", valor1, "*", valor2, "=", resultado);
 
 // Divisão
-result = num1 / num2;
-console.log("A divisão de ", num1, "/", num2, "=", result);
+resultado = valor1 / valor2;
+console.log("A divisão de ", valor1, "/", valor2, "=", resultado);
 
 // Módulo
-result = num1 % num2;
-console.log("O resto da divisão de ", num1, "e", num2, "é", result);
+resultado = valor1 % valor2;
+console.log("O resto da divisão de ", valor1, "e", valor2, "é", resultado);
 
 // Potência
-result = num1 ** num2;
-console.log("A potência de ", num1, "e", num2, "é", result);
-*/
+resultado = valor1 ** valor2;
+console.log("A potência de ", valor1, "e", valor2, "é", resultado);
