@@ -146,20 +146,20 @@ console.log(`A soma deles é de ${soma}`)
 
 // UTILIZANDO WHILE FOR IF
 
-let numAleatorio;
+let numAleatorio1;
 let totalSorteio = 10;
 
 for (let i = 0; i <= 9; i++) {
     
-    numAleatorio = Math.round(Math.random() * 100);
+    numAleatorio1 = Math.round(Math.random() * 100);
     
-    while(numAleatorio % 2 !== 0)
+    while(numAleatorio1 % 2 !== 0)
     {
-        numAleatorio = Math.round(Math.random() * 100);
+        numAleatorio1 = Math.round(Math.random() * 100);
         totalSorteio++;        
     }
     
-    console.log(`Números sorteados: ${numAleatorio}`);
+    console.log(`Números sorteados: ${numAleatorio1}`);
 }
 
 console.log(`Quantidade de sorteios realizados: ${totalSorteio}`);
