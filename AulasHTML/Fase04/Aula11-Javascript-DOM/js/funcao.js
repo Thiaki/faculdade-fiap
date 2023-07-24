@@ -32,10 +32,14 @@ Sintaxe
 
 */
 
+
+
+
+
+
 //TESTANDO
 
 // TABUADA COM FUNÇÃO
-/*
 function tabuada (numeroTab){
     console.log(`Estamos fazendo a tabuada do número ${numeroTab}`)
     for (let i =0 ; i <= 10 ; i++){
@@ -47,4 +51,25 @@ function tabuada (numeroTab){
 
 let numTabuada = prompt("Digite o numero da tabuada")
 tabuada (numTabuada)
-*/
+
+
+// FUNCÇÃO CALLBACK
+function somar(x, y, z){
+    return (x + y + z)
+}
+
+function subtrair(x, y, z){
+    return (x - y - z)
+}
+
+function media(x, y, z){
+    // toFixed(2) DEIXA 2 LINHAS DEPOIS DA VÍRGULA
+    return ((x + y + z) / 3).toFixed(2)
+}
+
+function calcular(x, y, z, conta){
+    return conta(x , y , z)
+}
+console.log(`A soma é ${calcular(10, 20, 20, somar)}`)
+console.log(`A subtração é ${calcular(10, 20, 20, subtrair)}`)
+console.log(`A media é ${calcular(10, 20, 20, media)}`)
