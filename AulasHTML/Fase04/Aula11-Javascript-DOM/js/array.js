@@ -1,4 +1,3 @@
-/*
 const arrayExemplo = ['Aluno', 'Planta', 'Diretor', 'Coordenador']
 
 // MODIFICANDO O SEGUNDO ELEMENTO DA ARRAY
@@ -136,7 +135,7 @@ const totalValores = arrayNumber.reduce((acumulador, valor) => {
 }, 0)
 console.log(totalValores)
 
-*/
+
 // --------------------------------------- //
 
 
