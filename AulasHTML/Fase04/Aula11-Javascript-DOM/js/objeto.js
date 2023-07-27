@@ -86,7 +86,7 @@ produto5.exibir()
 
 
 
-// Spread elementos de um objeto ou uma array sejam repassados a outra, como se estivessem sido duplicados, concatenados ou inserir mais parâmetros
+// SPREAD elementos de um objeto ou uma array sejam repassados a outra, como se estivessem sido duplicados, concatenados ou inserir mais parâmetros
 /*
 Sintaxe Array
     const {novo-array} = [...{array-um}...{array-dois}]
@@ -99,7 +99,7 @@ console.log(produto6Upgrade)
 
 
 
-// Rest com ele é possível colocar "infinitos" argumentos dentro da array
+// REST com ele é possível colocar "infinitos" argumentos dentro da array
 /*
 Sintaxe
     function {nome-função}(...{argumentos}) {
@@ -117,6 +117,18 @@ function somar(...numero){
 }
 
 
+
+// DESESTRUTRAÇÃO podemos separar os elementos de um array ou objeto em diferentes variáveis
+/*
+Sintaxe Array
+    const [variavel1, variavel2] = array
+Sintaxe Objeto
+    const {variavel1, variavel2} = objeto
+*/
+const prod = ['Celular', 'Tablet', 'Smartphone', 'Televisão']
+// Colocando 'Celular' em prod1 ...
+const [prod1, prod2, ...outrosProdutos] = prod
+console.log(prod1)
 
 
 
