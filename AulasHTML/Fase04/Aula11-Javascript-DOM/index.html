@@ -3,15 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiap | Aula 11 - JavaScript DOM</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&amp;display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
-    <title>Fiap | Aula 11 - JavaScript Function / Array / DOM</title>
 </head>
 <body>
-    <!--
-        <script src="./js/funcao.js"></script>
-        <script src="./js/array.js"></script>
-    -->
-    <script src="./js/objeto.js"></script>
-
+    <div class="container text-center">
+        <h1 class="my-3 p-3 bg-danger text-light">Meu projeto Web</h1>
+        <table class="table" id="tabela">
+            <thead>
+                <tr>
+                    <th>Vingador</th>
+                    <th>Força</th>
+                    <th>Velocidade</th>
+                    <th>Agilidade</th>
+                    <th>XP Final</th>
+                </tr>
+            </thead>
+            <tbody id="vingadores">
+                <tr class="vingador">
+                    <td class="nome">Homem de Ferro</td>
+                    <td class="forca">90</td>
+                    <td class="velocidade">89</td>
+                    <td class="agilidade">85</td>
+                    <td class="xp-Final"></td>
+                </tr>
+                <tr class="vingador">
+                    <td class="nome">Capitão 
+                    América</td>
+                    <td class="forca">94</td>
+                    <td class="velocidade">90</td>
+                    <td class="agilidade">88</td>
+                    <td class="xp-Final"></td>
+                </tr>
+                <tr class="vingador">
+                    <td class="nome">Thor</td>
+                    <td class="forca">95</td>
+                    <td class="velocidade">92</td>
+                    <td class="agilidade">89</td>
+                    <td class="xp-Final"></td>
+                </tr>
+                <tr class="vingador">
+                    <td class="nome">Viúva Negra</td>
+                    <td class="forca">90</td>
+                    <td class="velocidade">91</td>
+                    <td class="agilidade">92</td>
+                    <td class="xp-Final"></td>
+                </tr>
+                <tr class="vingador">
+                    <td class="nome">Capitão Marvel</td>
+                    <td class="forca">94</td>
+                    <td class="velocidade">90</td>
+                    <td class="agilidade">93</td>
+                    <td class="xp-Final"></td>
+                </tr>
+            </tbody>
+            <tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" data-JS="">Dados atualizados: </td>
+                    </tr>
+                </tfoot>
+            </tr>
+        </table>
+        
+        <div class="d-flex justify-content-end">
+                <button id="calcular" class="btn btn-danger">Calcular XP dos heróis</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
