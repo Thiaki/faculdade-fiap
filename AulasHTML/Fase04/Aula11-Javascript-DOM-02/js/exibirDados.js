@@ -10,3 +10,6 @@ function exibirXP(){
         heroi.querySelector('.xp-Final').textContent = resultadoXp.toFixed(1)
     })
 }
+
+dataHoje();
+calcularXP();
