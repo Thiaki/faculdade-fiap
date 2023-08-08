@@ -1,4 +1,4 @@
-// Criando objetos
+ // Criando objetos
 const produto1 = {
     id: 1,
     tipo: 'Celular',
