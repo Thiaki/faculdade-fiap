@@ -1,4 +1,4 @@
-package br.com.fiap.aula06;
+package br.com.fiap.aula08;
 
 public class Conta {
 	private int numeroConta;
@@ -17,11 +17,31 @@ public class Conta {
 		this.saldo = saldo;
 	}
 	
+	// Métodos para setar agencia, numeroConta
+	
+	public int getAgencia() {
+		return agencia;
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+	
+	public int getNumeroConta() {
+		return numeroConta;
+	}
+	
+	public void setNumeroConta(int numeroConta) {
+		this.numeroConta = numeroConta;
+	}
+	
+	
+	
 	/*
 	 * Acrescenta o valor no saldo da conta
 	 * @param deposito que o usuário irá fazer
 	 */
-	public void setDepositar(double deposito) {
+	public void depositar(double deposito) {
 		saldo += deposito;
 	}
 	
@@ -29,7 +49,7 @@ public class Conta {
 	 * Tira o valor sacado
 	 * @param valor sacado
 	 */
-	public void setSaque(double retirado) {
+	public void saque(double retirado) {
 		saldo -= retirado;
 	}
 	
@@ -39,5 +59,5 @@ public class Conta {
 	 */
 	public double getVerificarSaldo() {
 		return saldo;
-}
+	}
 }
