@@ -21,10 +21,6 @@ public class ClassGeneric {
 			System.out.println(cliente.getNome());
 		}
 		
-		System.out.println(); System.out.println(); System.out.println();
-		
-		System.out.println(listaCliente);
-		
 		
 	}
 	
