@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cb855a9-1ff2-48f3-afc4-c1913bd4dc5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/css/cadastro-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/css/index-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/css/login-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/image/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Atividades/Cap09/pages/cadastro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula04-Html-Basico/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula04-Html-Basico/images/imagem_azul.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula04-Html-Basico/images/imagem_preto.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula04-Html-Basico/images/imagem_vinho.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula04-Html-Basico/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Basico/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Basico/images/imagem_azul.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Basico/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Display/css/style-display-flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Display/css/style-geral.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Display/display-flex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Display/geral.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Pseudoclasses/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula05-Css-Pseudoclasses/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula06-Css-Grid/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula06-Css-Grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula07-Formularios/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula07-Formularios/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula08-Responsividade/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula08-Responsividade/image/notebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula08-Responsividade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula09-Bootstrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula09-Bootstrap/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula09-Bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula10-Javascript-Basico/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula10-Javascript-Basico/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula10-Javascript-Basico/js/condicional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula10-Javascript-Basico/js/introducao.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-ArrayObjeto/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-ArrayObjeto/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-ArrayObjeto/js/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-ArrayObjeto/js/funcao.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-ArrayObjeto/js/objeto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-01/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-01/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/js/calcularXP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/js/exibirDados.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/js/formataData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Aula11-Javascript-DOM-02/js/inserirVingador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Exercicios/Aula05/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Exercicios/Aula05/image/imagem_azul.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Exercicios/Aula05/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Exercicios/Aula06/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasHTML/Fase04/Exercicios/Aula06/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/src/br/com/fiap/aula05/ClassExemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/src/br/com/fiap/exercicio/deposito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula05/Aula05Exercicio/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/src/br/com/fiap/aula06/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/src/br/com/fiap/aula06/Objeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula06/Aula06/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/src/br/com/fiap/aula08/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/src/br/com/fiap/aula08/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/src/br/com/fiap/aula08/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/src/br/com/fiap/aula08/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Aula08/Aula08/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/src/br/com/fiap/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/src/br/com/fiap/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase05/Live/ContaBancariaLive/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ArrayExercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ClassArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ClassGeneric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ClassHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ClassHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/ClasseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/Repeticoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/RepeticoesExercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/br/com/fiap/aula01/StringExercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula01/Aula01/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/arquivoteste.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/src/br/com/fiap/aula05/CriarArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/src/br/com/fiap/aula05/ExemploArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasJava/Fase06/Aula05/aula05/src/br/com/fiap/aula05/LerArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase01/Fase01Aula10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/01_IF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/02_Loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/03_Listas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/04_Funcao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/05_Modulo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/AtividadeCap3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/RM98012_AtividadeCap3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/RM98012_EX01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/RM98012_EX02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/RM98012_EX03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/Atividades/Capitulo03/RM98012_EX04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase02/CalculadoraModulo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/08_Dicionario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/08_Tupla.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/09_Abrir_Arquivos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/09_Dicionario_Json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/Json_Dicionario.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Fase03/arquivotxt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Lives/LiveListas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Lives/LiveLoop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AulasPython/Lives/TestandoFuncoes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/ChangeRequests.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/businessinfo/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/datatypes/subviews/F9608F85-78B7-B256-F3B2-26CBA488D9C3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/0A300CCD-58C9-56BD-9781-237C45EB077C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/18FAFF14-1E4E-5A59-AF6A-0715432A3B0C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/33C5E186-4BC5-C7DF-DBCC-94904FC1F376.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/6869F018-CD76-82EC-1460-7613858E1E71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/8FFF4411-E46D-BB39-C6FF-86BFDAB9BFC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/entity/seg_0/99EDB93A-4304-2ACF-5F3E-AF073608B3BE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/relation/seg_0/0C6FEA7D-8944-80F5-A546-6742CB369E6C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/relation/seg_0/14C2784D-B19D-3FE2-FA22-CB8F3796B043.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/relation/seg_0/289D28C5-006F-51C9-66F5-CFF24D20348E.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/relation/seg_0/E1603B6B-80DA-28C8-BFBA-8A690E0C44E5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/relation/seg_0/EC22CC36-75F0-EFEC-C5DD-A3C36479EA18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/logical/subviews/D7412970-AE84-FFD9-73FB-C35ACA6A716A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/mapping/DeletedMap_RM4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/mapping/ExtendedMap_RM4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/pm/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rdbms/Cap 07 Fintech_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/foreignkey/seg_0/3B98679E-C0A0-257D-84C4-107A84400BF1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/foreignkey/seg_0/49312276-7289-CE61-E161-56D234B9D6F7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/foreignkey/seg_0/5093F1AB-F881-6C0B-460D-C1E211AA6EE0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/foreignkey/seg_0/EBCB2425-A614-3617-7CED-F8E111F745A1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/foreignkey/seg_0/F150BB95-1C89-BB8A-6A4C-22CA395D8ABE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/subviews/2C12B1CE-ADDE-ECED-55A1-ECD1CF5E8EE6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/6C267BF9-43D8-1AA7-C9F2-BB8DE114966C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/8B7FD0C8-5D9A-E995-BDD6-C89225C05FDC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/90EA4386-E269-DFE7-273E-E7DE95615ECA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/BE1A97F6-99D8-D423-38D4-408E56B57090.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/D72373AE-2B37-2996-F53D-457E489B376E.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Cap 07 Fintech/rel/4DE1C3F7-AEB5F1F0EFB2/table/seg_0/F0D8800C-859F-1EB6-0ED7-AD7EF18C3361.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Imagens/Logical.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Imagens/Relational.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Atividade Cap 07/Script BD Fintech.ddl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/AtividadeFase03.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/ChangeRequests.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/businessinfo/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/datatypes/subviews/27EC7168-EE39-1DEB-64B5-8159A1F0654F.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/entity/seg_0/46CCF435-4D47-CF8E-E963-495918783D44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/entity/seg_0/5EFB57AA-7706-D5E3-F644-FA622C6C26CA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/entity/seg_0/8E9D2639-BD92-EE31-A81B-0664A384B6B0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/entity/seg_0/C867971D-87F7-F1C3-E518-BAFF51420C3A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/entity/seg_0/F62F627E-62B7-F50B-E76D-2E45EF44B02F.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/relation/seg_0/48222F90-1994-D611-2F62-321C8FC024D5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/relation/seg_0/570FF7E1-4F7A-9BC4-593C-FBD58D8D0333.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/relation/seg_0/D61F6500-7F8F-D792-65CE-B2C7A9B8E740.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/relation/seg_0/D958DB15-CAB5-2A04-D70C-63B196985230.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/logical/subviews/0CD8885E-BE6D-73CE-6C19-836253F805F7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/mapping/DeletedMap_RMCDF09A46-D52D-FC32-7944-56025588428A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/mapping/ExtendedMap_RMCDF09A46-D52D-FC32-7944-56025588428A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/pm/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rdbms/Atividade Cap 05_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rel/CDF09A46-56025588428A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rel/CDF09A46-56025588428A/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rel/CDF09A46-56025588428A/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rel/CDF09A46-56025588428A/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Atividade Cap 05/Atividade Cap 05/rel/CDF09A46-56025588428A/subviews/72BA9B5A-FEE3-999C-C172-C6298F3F75C2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/ChangeRequests.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/businessinfo/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/datatypes/subviews/5811631C-C1C2-92D8-533A-3AA462E83ADF.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/dmd_open.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/000FCD25-66E0-FF95-7310-91FA9F3BE5FD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/0285574C-FFDB-A5C4-0CA0-7B782FF4CC90.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/343283A4-248D-5014-FCB6-C7265A9B8836.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/7CC6E305-5C04-2C16-746C-2FC83C226EE7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/89056EBF-F957-C425-5697-E95301E5CEB8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/957F2F06-44CC-7546-A925-E402E1CB1991.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/992624FD-CB00-4EDF-6011-550FF89BF0E4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/A2D54C9E-C0C5-3E8D-B77E-34CED7021BFA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/C358721D-05F0-F39A-E539-070E78EC4A2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/C5A19648-9942-02BB-3F66-65B32BD717CF.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/entity/seg_0/D012B177-EBE7-47B0-9795-63AAD22CF879.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/relation/seg_0/68F75339-7B79-4DA8-6131-2F70BF4EF670.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/relation/seg_0/697979D0-450E-1AE6-D0BB-AE9AA7563701.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/relation/seg_0/91664422-369A-0974-C3E9-4D010D8F9E6D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/relation/seg_0/9F7492FF-A73D-61B4-345D-71682D4E3A40.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/relation/seg_0/DB068E2E-FB1D-0570-E41F-14644328C384.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/logical/subviews/8A7E3A05-6099-A080-BE76-FC8176055819.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/mapping/DeletedMap_RMB36C2E6B-B675-6649-2B21-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/mapping/ExtendedMap_RMB36C2E6B-B675-6649-2B21-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/pm/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rdbms/Cap 04 Atividade 01_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 04/Cap 04 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/subviews/B8E5A956-133D-7AF6-EC16-28E47C832AA3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/ChangeRequests.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/businessinfo/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/datatypes/subviews/5811631C-C1C2-92D8-533A-3AA462E83ADF.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/arc/seg_0/A0881FED-AED7-2CCC-6149-16A5088C68F3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/arc/seg_0/B74818C0-C4CC-2EB6-85CB-41940818C1C4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/0738A8EF-5892-BE75-F8E4-7A2B9DC66689.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/1D7D3249-72BF-A00D-342A-7D9AD9DF849B.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/3CD90942-644A-8D65-7D23-5AC514A93099.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/44ADB8FB-7A8C-A7D3-4787-1E16C93284FA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/51752640-A345-903F-02D5-6D5567EFF1D7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/55677E41-314C-8D75-4B69-08E0E6336447.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/5D0E1977-6218-8E80-BB43-12DF4B1E32BE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/65E0F18F-22B9-0FE4-ABCA-AD082FB5FB63.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/6EF9F0A9-73D1-AB42-804E-1A9623478286.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/8CEFE1BB-A333-169A-FD0D-4292E3A91A06.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/A1EF2C31-3F55-DCFB-2021-799C53FF3DA1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/E7A6D9F8-E898-3957-DFFA-384DB8C0E793.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/entity/seg_0/EBC96CC4-51A6-E0C4-CF8D-435A16B43A5A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/09BD29BF-9F30-2F52-0DB3-CB309E7A53F2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/0F080593-F949-1783-A39A-7029FA0CA12E.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/134251DE-B50B-4643-C2E7-186944C1C646.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/2A58CEC7-DF0D-93DE-6C0E-D9C14A014AB8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/3F07031A-C877-88A9-06C3-1B3970B17868.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/4507C5BC-4761-3D88-7CF5-5838E6B910AE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/5BAB6364-B224-4087-9913-8BDD66DE2F05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/5BDA7966-59E0-B115-A5E9-15CC496D527B.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/F5353BDE-51CD-105C-9752-B7FB6B0BA3B3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/relation/seg_0/FF7157B0-5CC1-D26C-F856-BAE3FEA1DD8D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/logical/subviews/8A7E3A05-6099-A080-BE76-FC8176055819.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/mapping/DeletedMap_RMB36C2E6B-B675-6649-2B21-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/mapping/ExtendedMap_RMB36C2E6B-B675-6649-2B21-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/pm/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rdbms/Atividade_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 05/Cap 05 Atividade 01/rel/B36C2E6B-D08ABEBDBDDA/subviews/B8E5A956-133D-7AF6-EC16-28E47C832AA3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01.dmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/ChangeRequests.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/businessinfo/Business Information.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/businessinfo/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/DataTypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/datatypes/subviews/27F68C65-6214-3331-FF39-0C5F8B4E2F55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/dl_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/Logical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/arc/seg_0/06745CBD-3E30-69B0-D986-AF81906D4B5C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/entity/seg_0/0C0C7F71-57B2-3132-90B0-31F4943A5460.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/entity/seg_0/17BC2213-7BCC-F143-21BE-39C258260538.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/entity/seg_0/57BABA7A-A88E-756C-4B88-9583FBBC3979.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/entity/seg_0/EB9BAF8D-BCCA-5C34-7A95-80685F152B82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/entity/seg_0/F28B8D7D-DBD5-1B0A-E803-12D9C9456CC6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/relation/seg_0/451A6664-1333-56DE-76ED-B3659403C3C4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/relation/seg_0/8ACDE41D-CD76-8D18-DA01-A982EBCD740C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/relation/seg_0/BC9833CB-07EC-3BCF-EF60-41D9D5DCC1C0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/logical/subviews/83EE4337-87BA-D8C9-F284-82C627F46B5C.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/mapping/DeletedMap_RMA5CD318F-8572-71E6-EDD4-1DA93196C4EA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/mapping/ExtendedMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/mapping/ExtendedMap_RMA5CD318F-8572-71E6-EDD4-1DA93196C4EA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/pm/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/pm/Process Model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rdbms/Cap 07 Atividade 01_RDBMSSites.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/DDLSelection.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/Diagrams.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/Objects.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/arc/seg_0/5B8DDC99-BCBB-FF59-932B-6E62E7A4B75E.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/foreignkey/seg_0/E0C8C4BA-0B2C-B779-28E2-B23699B38592.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/foreignkey/seg_0/EA16F9BC-7CDB-F5B9-860D-9F7D8907CA64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/foreignkey/seg_0/FF5A5FB0-08CD-1AE3-942E-CC8BF14F4090.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/subviews/86C861DE-1E98-23CF-8213-EE17C9C96400.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/table/seg_0/49CADF8A-FFCC-3DFE-C0FE-E89F932594EC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/table/seg_0/8122861B-2F06-6DC0-8B15-14F08A5CDBF1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/table/seg_0/943E382B-1393-7562-A98F-BEEBACCBE31D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/table/seg_0/E29EF03C-A2B2-9FB8-7D4F-273C0D4E68D7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 03 - Cap 07/Cap 07 Atividade 01/rel/A5CD318F-1DA93196C4EA/table/seg_0/E3921744-2822-5771-7B7F-C69E82018E0B.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 06/Cap 04/Cap04.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 06/Cap 07/Selects.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Banco de Dados/Fase 06/Live/Cap 04/Explicacao.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2c41a1eukp7MDmZV6XUCE3BE6ag" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Thiaki/Documents/Faculdade/Ano02/Kotlin/Fase01"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cb855a9-1ff2-48f3-afc4-c1913bd4dc5e" name="Changes" comment="" />
+      <created>1707356096393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707356096393</updated>
+    </task>
+    <servers />
+  </component>
+</project>
