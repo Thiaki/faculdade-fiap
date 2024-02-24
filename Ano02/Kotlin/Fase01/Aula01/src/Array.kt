@@ -1,5 +1,3 @@
-import kotlin.io.path.fileVisitor
-
 fun exArray(){
 
     // var {nome-variavel} = {valor}
